@@ -1,6 +1,6 @@
-import * as React, { useEffect, useRef } from 'react';
-import ReactPanZoom from './react-pan-zoom-rotate';
-import styled, { css } from 'styled-components';
+import * as React from "react";
+import ReactPanZoom from "./react-pan-zoom-rotate";
+import styled, { css } from "styled-components";
 
 const Container = css`
   width: 100%;
@@ -81,12 +81,12 @@ const PanViewer = ({ image, alt, setImgRef }: PanViewerProps) => {
     setDx(dx);
     setDy(dy);
   };
-  
-  const ref = useRef(null)
-  
-  useEffect(() => {
-    setImgRef(ref.current)
-  }, [ref])
+
+  const ref = React.useRef(null);
+
+  React.useEffect(() => {
+    setImgRef(ref.current);
+  }, [ref]);
 
   return (
     <>
