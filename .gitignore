@@ -3,3 +3,4 @@ dist
 coverage
 cypress
 yarn.lock
+package-lock.json
