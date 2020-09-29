@@ -32,7 +32,7 @@ export interface IReactPanZoomProps {
 export default class ReactPanZoom extends React.PureComponent<
   IReactPanZoomProps,
   IReactPanZoomStateType
-> {
+  > {
   // In strict null checking setting default props doesn't seem to work. Hence the non-null assertion.
   // :crossedfingers: it shouldn't be deprecated. Or the very least support defaultProps semantics as proposed
   // in this PR: https://github.com/Microsoft/TypeScript/issues/23812

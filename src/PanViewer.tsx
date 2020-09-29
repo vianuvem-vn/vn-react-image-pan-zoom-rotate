@@ -124,29 +124,7 @@ const PanViewer = React.forwardRef(({ image, alt }: PanViewerProps, ref: any) =>
           </svg>
         </div>
         <div onClick={rotateLeft}>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14 15L9 20L4 15"
-              stroke="#4C68C1"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M20 4H13C10.7909 4 9 5.79086 9 8V20"
-              stroke="#4C68C1"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          <img width="24" height="24" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00MDguOTczLDE0Mi42ODlDMzY4LjExMywxMDEuODI5LDMxMy43ODUsNzkuMzI2LDI1Niw3OS4zMjZoLTMxLjcxN2w1MC45MDctNTEuMDMyTDI0Ni44MjYsMEwxNDcuNjgsOTkuMzg5DQoJCQlsOTcuODUyLDk5LjQ4OGwyOC41NjMtMjguMDkzbC01MC41NTEtNTEuMzk2SDI1NmM5Ny4xOTgsMCwxNzYuMjc1LDc5LjA3NiwxNzYuMjc1LDE3Ni4yNzVTMzUzLjE5OCw0NzEuOTM4LDI1Niw0NzEuOTM4DQoJCQlTNzkuNzI1LDM5Mi44NjEsNzkuNzI1LDI5NS42NTl2LTIwLjAzMWwtNDAuMDYyLDAuMDA0djIwLjAzMWMwLDU3Ljc4NiwyMi41MDMsMTEyLjExMyw2My4zNjQsMTUyLjk3Mw0KCQkJQzE0My44ODcsNDg5LjQ5NywxOTguMjE1LDUxMiwyNTYsNTEyYzU3Ljc4NSwwLDExMi4xMTMtMjIuNTAzLDE1Mi45NzMtNjMuMzY0YzQwLjg2MS00MC44NjEsNjMuMzY0LTk1LjE4OCw2My4zNjQtMTUyLjk3Mw0KCQkJUzQ0OS44MzQsMTgzLjU1LDQwOC45NzMsMTQyLjY4OXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />        </div>
       </ControlsContainer>
       <StyledReactPanZoom
         zoom={zoom}
